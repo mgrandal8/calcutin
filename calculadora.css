@@ -1,0 +1,141 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+    background-color: black;
+}
+#contenedor1{
+    display: flex;
+    flex-direction: column;
+    background-color: #03396c;
+    width: 100 px;
+    height:100%;
+    padding: 10px;
+    align-items: center;
+
+}
+#contenedor1 div{
+    margin: 5px;
+}
+#pantalla{
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    height: 50px;
+    width: 95%;
+    background-color: grey;
+    border-radius: 5%;
+    margin: 10px;
+    font-size: 30pt;
+    font-weight: 400;
+    text-align: right;
+
+}
+#numSim{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    display: flex;
+    flex-direction: row;
+}
+#numeros{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.nums {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin: 2px;
+    font-size: 30pt;
+    text-align: center;
+    height: fit-content;
+    width: 27%;
+    background-color:#6497b1;
+    justify-content: space-around;
+    border-radius: 15%;
+}
+.signos{
+    background-color: #b3cde0;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin: 2px;
+    font-size: 30pt;
+    text-align: center;
+    height: 22%;
+    width:40%;
+    border-radius: 15%;
+    
+    
+    
+}
+
+.cero {
+ 
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin: 2px;
+    font-size: 30pt;
+    text-align: center;
+    height: fit-content;
+    width: 58%;
+    background-color: #6497b1;
+    justify-content: space-around;
+}
+
+#limpiar{
+    border: black,solid,2px;
+    background-color: #ffcccc;
+    padding: 5px;
+    font-size: 20pt;
+    
+
+}
+#simbolos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 40%;
+}
+#igual{
+width:85%;
+background-color: #b3cde0;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin: 2px;
+    font-size: 30pt;
+    text-align: center;
+    height: 18%;
+    border-radius: 15%;
+}
+@media screen and (max-width: 500px) {
+    
+    body {
+        width: 100%;
+        margin: 0;
+    }
+    
+    #contenedor1 {
+        width: 90%;
+    }
+    
+    #contenedor1 div {
+        margin: 3px;
+    }
+    
+    #simbolos {
+        width: 50%;
+    }
+    
+    .signos {
+        width: 40%;
+    }
+    
+}
